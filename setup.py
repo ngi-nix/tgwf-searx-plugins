@@ -27,11 +27,6 @@ setup(
     }
     , license           = 'GNU Affero General Public License'
     , zip_safe          = False
-    , install_requires  = """
-searx
-requests
-flask-babel
-"""
     , py_modules        = [
         'only_show_green_results'
     ]
